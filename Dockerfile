@@ -1,7 +1,7 @@
 FROM smlsunxie/rudy-node:latest
 
-RUN gem install bootstrap-sass
 RUN gem install compass
+RUN gem install bootstrap-sass
 
 RUN npm install -g grunt-cli
 RUN npm install -g bower
